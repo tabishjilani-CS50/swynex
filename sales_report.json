@@ -1,0 +1,50 @@
+{
+  "dataset": "sales.csv",
+  "original_rows": 6,
+  "original_columns": 4,
+  "final_rows": 5,
+  "final_columns": 4,
+  "duplicates_removed": 1,
+  "numeric_columns": [
+    "age",
+    "revenue"
+  ],
+  "categorical_columns": [
+    "customer_name",
+    "city"
+  ],
+  "missing_values_before": {
+    "customer_name": 0,
+    "age": 2,
+    "revenue": 1,
+    "city": 1
+  },
+  "missing_values_after": {
+    "customer_name": 0,
+    "age": 0,
+    "revenue": 0,
+    "city": 0
+  },
+  "numeric_summary": {
+    "age": {
+      "count": 5.0,
+      "mean": 25.0,
+      "std": 2.828,
+      "min": 21.0,
+      "25%": 25.0,
+      "50%": 25.0,
+      "75%": 25.0,
+      "max": 29.0
+    },
+    "revenue": {
+      "count": 5.0,
+      "mean": 2150.0,
+      "std": 715.891,
+      "min": 1200.0,
+      "25%": 1800.0,
+      "50%": 2150.0,
+      "75%": 2500.0,
+      "max": 3100.0
+    }
+  }
+}
